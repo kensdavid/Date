@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE69D4C9162B0CAE00BF27A3 /* Date.m in Sources */ = {isa = PBXBuildFile; fileRef = BE69D4C8162B0CAE00BF27A3 /* Date.m */; };
 		BE9BF89D1627A8970081CE7D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE9BF89C1627A8970081CE7D /* UIKit.framework */; };
 		BE9BF89F1627A8970081CE7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE9BF89E1627A8970081CE7D /* Foundation.framework */; };
 		BE9BF8A11627A8970081CE7D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE9BF8A01627A8970081CE7D /* CoreGraphics.framework */; };
@@ -16,15 +17,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE69D4C7162B0CAE00BF27A3 /* Date.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Date.h; sourceTree = "<group>"; };
+		BE69D4C8162B0CAE00BF27A3 /* Date.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Date.m; sourceTree = "<group>"; };
 		BE9BF8981627A8970081CE7D /* Date.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Date.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE9BF89C1627A8970081CE7D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BE9BF89E1627A8970081CE7D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BE9BF8A01627A8970081CE7D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		BE9BF8A41627A8970081CE7D /* Date-Info.plist */ = {isa = PBXFileReference; path = "Date-Info.plist"; sourceTree = "<group>"; };
+		BE9BF8A41627A8970081CE7D /* Date-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Date-Info.plist"; sourceTree = "<group>"; };
 		BE9BF8A61627A8970081CE7D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BE9BF8A81627A8970081CE7D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BE9BF8AA1627A8970081CE7D /* Date-Prefix.pch */ = {isa = PBXFileReference; path = "Date-Prefix.pch"; sourceTree = "<group>"; };
-		BE9BF8AB1627A8970081CE7D /* DateAppDelegate.h */ = {isa = PBXFileReference; path = DateAppDelegate.h; sourceTree = "<group>"; };
+		BE9BF8AA1627A8970081CE7D /* Date-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Date-Prefix.pch"; sourceTree = "<group>"; };
+		BE9BF8AB1627A8970081CE7D /* DateAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DateAppDelegate.h; sourceTree = "<group>"; };
 		BE9BF8AC1627A8970081CE7D /* DateAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DateAppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,6 +78,8 @@
 				BE9BF8AB1627A8970081CE7D /* DateAppDelegate.h */,
 				BE9BF8AC1627A8970081CE7D /* DateAppDelegate.m */,
 				BE9BF8A31627A8970081CE7D /* Supporting Files */,
+				BE69D4C7162B0CAE00BF27A3 /* Date.h */,
+				BE69D4C8162B0CAE00BF27A3 /* Date.m */,
 			);
 			path = Date;
 			sourceTree = "<group>";
@@ -153,6 +158,7 @@
 			files = (
 				BE9BF8A91627A8970081CE7D /* main.m in Sources */,
 				BE9BF8AD1627A8970081CE7D /* DateAppDelegate.m in Sources */,
+				BE69D4C9162B0CAE00BF27A3 /* Date.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +262,7 @@
 				BE9BF8B21627A8970081CE7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
